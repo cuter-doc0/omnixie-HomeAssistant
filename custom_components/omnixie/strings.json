@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Omnixie Clock",
+        "description": "Set up your Omnixie Nixie tube clock.",
+        "data": {
+          "host": "Host",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the Omnixie clock.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This clock is already configured."
+    }
+  }
+}
